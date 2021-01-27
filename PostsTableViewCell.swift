@@ -8,7 +8,7 @@
 
 import UIKit
 
-class PostsTableViewCell: UITableViewCell,UICollectionViewDelegate {
+class PostsTableViewCell: UITableViewCell,UICollectionViewDelegate,UICollectionViewDataSource {
 
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -28,15 +28,20 @@ class PostsTableViewCell: UITableViewCell,UICollectionViewDelegate {
     }
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of items
-        return 4
+        return 8
     }
     
-    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-       let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "\(LivePostsCollectionViewCell.self)", for: indexPath) as! LivePostsCollectionViewCell
-      
-        cell.livePostImageView.image = UIImage(named: "pic\(indexPath)")
-        cell.livePostNameLabel.text = "name\(indexPath)"
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell{
+       
+
+        
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "\(LivePostsCollectionViewCell.self)", for: indexPath) as! LivePostsCollectionViewCell
+        let user = indexPath.row + 1 
+        cell.livePostImageView.image = UIImage(named: "pic\(user)")
+        cell.livePostNameLabel.text = "name\(user)"
+       
         return cell
+        
     }
     
 

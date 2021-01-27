@@ -17,7 +17,6 @@
 		62B63F8B25C19ECC007B57C3 /* PostsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B63F8A25C19ECC007B57C3 /* PostsTableViewController.swift */; };
 		62B63F8E25C19EEB007B57C3 /* PostsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B63F8D25C19EEB007B57C3 /* PostsTableViewCell.swift */; };
 		62B63F9125C1A189007B57C3 /* LivePostsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B63F9025C1A189007B57C3 /* LivePostsCollectionViewCell.swift */; };
-		62B63F9425C1A37D007B57C3 /* LivePostsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B63F9325C1A37D007B57C3 /* LivePostsCollectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,7 +32,6 @@
 		62B63F8A25C19ECC007B57C3 /* PostsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsTableViewController.swift; sourceTree = "<group>"; };
 		62B63F8D25C19EEB007B57C3 /* PostsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsTableViewCell.swift; sourceTree = "<group>"; };
 		62B63F9025C1A189007B57C3 /* LivePostsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivePostsCollectionViewCell.swift; sourceTree = "<group>"; };
-		62B63F9325C1A37D007B57C3 /* LivePostsCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivePostsCollectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,7 +70,6 @@
 				62B518B3251258CE009E4DBD /* SceneDelegate.swift */,
 				62B518B5251258CE009E4DBD /* ViewController.swift */,
 				62B518B7251258CE009E4DBD /* Main.storyboard */,
-				62B63F9325C1A37D007B57C3 /* LivePostsCollectionViewController.swift */,
 				62B63F9025C1A189007B57C3 /* LivePostsCollectionViewCell.swift */,
 				627C661125BD809000FFC418 /* MainPage.swift */,
 				62B518BA251258CF009E4DBD /* Assets.xcassets */,
@@ -159,7 +156,6 @@
 				62B518B4251258CE009E4DBD /* SceneDelegate.swift in Sources */,
 				62B63F8E25C19EEB007B57C3 /* PostsTableViewCell.swift in Sources */,
 				627C661225BD809000FFC418 /* MainPage.swift in Sources */,
-				62B63F9425C1A37D007B57C3 /* LivePostsCollectionViewController.swift in Sources */,
 				62B63F8B25C19ECC007B57C3 /* PostsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
