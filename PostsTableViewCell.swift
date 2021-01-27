@@ -39,15 +39,7 @@ class PostsTableViewCell: UITableViewCell,UICollectionViewDelegate {
         return cell
     }
     
-    
-//   func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-//        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "\(LivePostsCollectionViewCell.self)", for: indexPath ) as! LivePostsCollectionViewCell
-//
-//        cell.livePostImageView.image = UIImage(named: "pic\(indexPath)")
-//        cell.livePostNameLabel.text = "name\(indexPath)"
-//
-//        return cell
-//    }
+
 
 }
 
